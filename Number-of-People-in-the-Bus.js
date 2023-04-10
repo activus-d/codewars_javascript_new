@@ -12,13 +12,13 @@ Please keep in mind that the test cases ensure that the number of people in the 
 The second value in the first pair in the array is 0, since the bus is empty in the first bus stop.
 */
 var number = function(busStops){
-  // Good Luck!
-  let peopleOnTheBus = 0;
-  let peopleOffTheBus = 0;
-  busStops.forEach((element,index,array) => {
-    peopleOnTheBus = peopleOnTheBus + element[0];
-    peopleOffTheBus = peopleOffTheBus + element[1];
-  });
-  console.log(peopleOnTheBus, peopleOffTheBus)
-    return peopleOnTheBus - peopleOffTheBus
+    // Good Luck!
+    let peopleOnTheBus = 0;
+    let peopleOffTheBus = 0;
+    busStops.forEach((element,index,array) => {
+      peopleOnTheBus = peopleOnTheBus + element[0];
+      peopleOffTheBus = peopleOffTheBus + element[1];
+    });
+    console.log(peopleOnTheBus, peopleOffTheBus)
+      return peopleOnTheBus - peopleOffTheBus
 }
